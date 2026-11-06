@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use these data or figures, please cite the review."
+title: "RAS-targeted therapy in cancer: figures, source data and code"
+authors:
+  - family-names: "Wang"
+    given-names: "Nianfei"
+year: 2026
+license: CC-BY-4.0
+type: dataset

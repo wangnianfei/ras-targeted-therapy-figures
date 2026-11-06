@@ -1,0 +1,130 @@
+{
+ "fetched": "2026-11-05T15:59:50",
+ "source": "ClinicalTrials.gov REST API v2",
+ "raw_interventional_union": 3210,
+ "curated_trials": 1182,
+ "excluded": 2028,
+ "excluded_reasons": {
+  "RAS not referenced as a gene/target (e.g. renin-angiotensin system, or RAS appears in neither title, summary, condition, keyword, eligibility criteria nor outcome measure)": 1907,
+  "phase outside I-III (NA)": 54,
+  "non-malignant RASopathy / non-oncology indication": 19,
+  "condition is not oncological": 38,
+  "phase outside I-III (Phase 4)": 10
+ },
+ "by_tier": {
+  "RAS-biomarker-selected": 639,
+  "RAS-targeted": 358,
+  "RAS-mentioned": 51,
+  "RAS-regulator-targeted": 134
+ },
+ "by_phase_group": {
+  "Phase 1": 359,
+  "Phase 2": 694,
+  "Phase 3": 118,
+  "Early Phase 1": 11
+ },
+ "by_status_group": {
+  "Not yet recruiting": 71,
+  "Ongoing": 354,
+  "Stopped early": 214,
+  "Completed": 428,
+  "Other/unknown": 115
+ },
+ "by_sponsor_class": {
+  "INDUSTRY": 565,
+  "OTHER": 491,
+  "NETWORK": 26,
+  "NIH": 86,
+  "OTHER_GOV": 14
+ },
+ "trials_with_no_location": 85,
+ "multinational_trials": 284,
+ "median_sites": 2,
+ "total_site_records": 26325,
+ "countries_covered": 72,
+ "top10_countries": [
+  [
+   "United States",
+   644
+  ],
+  [
+   "China",
+   256
+  ],
+  [
+   "Spain",
+   189
+  ],
+  [
+   "Italy",
+   155
+  ],
+  [
+   "France",
+   154
+  ],
+  [
+   "Australia",
+   127
+  ],
+  [
+   "Germany",
+   122
+  ],
+  [
+   "South Korea",
+   120
+  ],
+  [
+   "Canada",
+   112
+  ],
+  [
+   "United Kingdom",
+   101
+  ]
+ ],
+ "top10_sponsors": [
+  [
+   "National Cancer Institute (NCI)",
+   84
+  ],
+  [
+   "Merck Sharp & Dohme LLC",
+   29
+  ],
+  [
+   "M.D. Anderson Cancer Center",
+   28
+  ],
+  [
+   "Pfizer",
+   24
+  ],
+  [
+   "Amgen",
+   22
+  ],
+  [
+   "Eli Lilly and Company",
+   18
+  ],
+  [
+   "Revolution Medicines, Inc.",
+   18
+  ],
+  [
+   "Novartis Pharmaceuticals",
+   18
+  ],
+  [
+   "Memorial Sloan Kettering Cancer Center",
+   17
+  ],
+  [
+   "ImmunityBio, Inc.",
+   17
+  ]
+ ],
+ "enrollment_total_reported": 163805
+}
