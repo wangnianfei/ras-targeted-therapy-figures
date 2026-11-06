@@ -11,16 +11,16 @@ Data, code and vector artwork for the review **“RAS 靶向治疗的化学与�
 
 | # | File stem | What it shows | Data | Code |
 |---|---|---|---|---|
-| 1 | Fig1_cancer_type_distribution | Pan-cancer distribution of *KRAS*/*NRAS*/*HRAS* mutations | data/01_cancer_type_distribution/ | code/structure_figures.py (fig4) |
-| 2 | Fig2_trial_atlas | Atlas of 1,182 RAS-related oncology trials, 2000–2026 | data/02_trial_atlas/ | code/fig2_world_map.R, code/fig2_trial_atlas.R |
-| 3 | Fig2_KRAS_GDP_structure | KRAS nucleotide-binding elements and isoform differences | data/03_kras_structure/ | code/structure_figures.py (fig_s1), code/pymol/render_supplementary_pymol.pml |
-| 4 | Fig3_RAS_signalling_network | RAS signalling network and druggable nodes | curated, no dataset | code/fig4_network.py |
-| 5 | Fig4_conformational_switch | Conformational shift on nucleotide exchange and drug binding | data/03_kras_structure/, PDB | code/structure_figures.py (fig6), code/pymol/render_panelC_pymol.pml |
-| 6 | Fig5_drug_class_swimlanes | Chemotypes of RAS-targeted drugs against development stage | data/06_drug_swimlanes/ | code/fig6_swimlanes.R |
-| 7 | Fig6_mutation_distribution | Residue-level mutation spectrum of the three *RAS* genes | data/07_mutation_distribution/ | code/structure_figures.py (fig3) |
-| 8 | Fig7_resistance_to_combination | Resistance mechanisms mapped onto combination strategies | data/08_resistance_combination/ | code/fig8_resistance.R |
+| 1 | 01_cancer_type_distribution | Pan-cancer distribution of *KRAS*/*NRAS*/*HRAS* mutations | data/01_cancer_type_distribution/ | code/structure_figures.py (fig4) |
+| 2 | 02_trial_atlas | Atlas of 1,182 RAS-related oncology trials, 2000–2026 | data/02_trial_atlas/ | code/fig2_world_map.R, code/fig2_trial_atlas.R |
+| 3 | 03_kras_gdp_structure | KRAS nucleotide-binding elements and isoform differences | data/03_kras_structure/ | code/structure_figures.py (fig_s1), code/pymol/render_supplementary_pymol.pml |
+| 4 | 04_signalling_network | RAS signalling network and druggable nodes | curated, no dataset | code/fig4_network.py |
+| 5 | 05_conformational_switch | Conformational shift on nucleotide exchange and drug binding | data/03_kras_structure/, PDB | code/structure_figures.py (fig6), code/pymol/render_panelC_pymol.pml |
+| 6 | 06_drug_class_swimlanes | Chemotypes of RAS-targeted drugs against development stage | data/06_drug_swimlanes/ | code/fig6_swimlanes.R |
+| 7 | 07_mutation_distribution | Residue-level mutation spectrum of the three *RAS* genes | data/07_mutation_distribution/ | code/structure_figures.py (fig3) |
+| 8 | 08_resistance_combination | Resistance mechanisms mapped onto combination strategies | data/08_resistance_combination/ | code/fig8_resistance.R |
 
-File stems keep the original drawing-project numbering; **the number in the first column is the manuscript number**.
+File names are ordered by the manuscript figure number. The original drawing-project stems are kept in figures/README.md for traceability.
 
 ## Data at a glance
 
